@@ -8,7 +8,9 @@ class Student extends Person{
     public void setYear(int year){
         this.year = year;
     }
-
+    public void print_year() {
+        System.out.println("Year = "+this.year);
+    }
 
     Student (){
 
