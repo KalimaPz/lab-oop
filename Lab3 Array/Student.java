@@ -17,12 +17,6 @@ public String getName(){
 public double getGPA(){
     return this.gpa;
 }
-public void setCode(String c) { // 
-    this.stCode = c;
-}
-public void setName(String nm) { // 
-    this.name = nm;
-}
 public void setGPA(double g) {
     this.gpa = g;
 }
