@@ -1,4 +1,5 @@
 public class Student {
+    
 private String stCode;
 private String name;
 private double gpa;
@@ -17,7 +18,7 @@ public String getName(){
 public double getGPA(){
     return this.gpa;
 }
-public void setCode(String c) { // 
+public void setCode(String c) { // addition
     this.stCode = c;
 }
 public void setName(String nm) { // 
