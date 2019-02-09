@@ -25,4 +25,8 @@ class Student{
         this.StCode = c;
         this.Name = n;
     }
+    public String toString() {
+        String s = StCode + " " + Name + " " + GPA;
+	    return s;
+    }
 }
