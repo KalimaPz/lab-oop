@@ -22,18 +22,13 @@ class StudentList {
     }
 
     public int searchStudentBystCode(String stCode) { // return index array list
-        int index = 0;
         for(int i = 0; i < students.size(); i++)
-        {
-            if(students.get(i).GetCode() == stCode){
-                index = students.size();
-            }
-            else
-                System.out.println("Not Found");
-        }
-     //   return index-i; // still bug 
+            if(students.get(i).GetCode() == stCode)
+                {
+                    return i+1;
+                }
+            return 0;
     }
-
     public int getNumberOfStudent() { // return number of student
         return students.size();
     }

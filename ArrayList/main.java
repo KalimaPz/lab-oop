@@ -15,9 +15,9 @@ class main {
         std.addStudent(S3);
 
       //  std.removeStudentBystCode("002"); // Delete
-        System.out.println(std.searchStudentBystCode("001"));
+      // System.out.println(std.searchStudentBystCode("002"));
 
-       // std.showAllStudent();
+        // std.showAllStudent();
       //  System.out.println("There are "+std.getNumberOfStudent() + " Students");
     }
 }
