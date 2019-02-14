@@ -11,12 +11,10 @@ class DiceBox {
         this.dices = new ArrayList<Dice>();
     }
     public int TotalFace(){
-      Dice d;
-      int total = 0 ;
-      for(int i = 0;i < dices.size(); i++){
-          d = dices.get(i);
-          total = d.getFace();
-    }
+        int total=0; 
+        for(Dice d:  dices){
+           total+=d.getFace();
+        }
         return total;
 }
     public void shake(){
