@@ -11,4 +11,8 @@ public class Person {
         System.out.println("Name : "+this.name);
         System.out.println("Age : "+this.age);
     }
+    public String toString(){
+        String s = "Name : " + this.name +" Age : " + this.age;
+        return s;
+    }
 }

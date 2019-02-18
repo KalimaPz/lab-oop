@@ -8,4 +8,8 @@ public class Teacher extends Person {
   public void print_faculty() {
       System.out.println("Faculty : "+this.Faculty);
   }
+  public String toString()
+  {
+    return super.toString()+" "+Faculty+" Type : Teacher";
+  }
 }

@@ -9,4 +9,9 @@ public class Employee extends Person {
     public void print_eid(){
         System.out.println("Employee ID = "+this.empID);
     }
+    public String toString()
+    {
+        String s = super.toString() + " " + "EID : " + this.empID; 
+        return s;
+    }
 }

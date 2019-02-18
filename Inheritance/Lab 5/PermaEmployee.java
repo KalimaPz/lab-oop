@@ -9,4 +9,9 @@ public class PermaEmployee extends Employee{
     public void print_salary(){
         System.out.println("Salary = "+this.Salary);
     }
+    public String toString()
+    {
+        String s = super.toString() + " " + "Salary : " + this.Salary + " Type : Permanent Employee";  
+        return s;
+    }
 }
