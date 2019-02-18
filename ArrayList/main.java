@@ -14,10 +14,9 @@ class main {
         std.addStudent(S2);
         std.addStudent(S3);
 
-      //  std.removeStudentBystCode("002"); // Delete
-      // System.out.println(std.searchStudentBystCode("002"));
-
-        // std.showAllStudent();
-      //  System.out.println("There are "+std.getNumberOfStudent() + " Students");
+        std.removeStudentBystCode("002"); // Delete
+        System.out.println("index  = " + std.searchStudentBystCode("003")); // Search Result
+        std.showAllStudent(); // Showallinfo
+        System.out.println("There are "+std.getNumberOfStudent() + " Students"); // That a array size
     }
 }

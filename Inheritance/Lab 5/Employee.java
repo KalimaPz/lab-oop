@@ -1,7 +1,12 @@
-public class Employee {
-    private String empId;
+public class Employee extends Person {
+    private String empID;
 
-    public void setEmpId (String id){
-        this.empId = id;
+    Employee(String name, int age,String eid) {
+        super(name, age);
+        this.empID = eid;
+    } 
+    
+    public void print_eid(){
+        System.out.println("Employee ID = "+this.empID);
     }
 }

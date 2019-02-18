@@ -1,11 +1,11 @@
 public class Teacher extends Person {
-    private String Faculty;
-    
-    Teacher() {}
-    public void setFaculty() {
-        this.Faculty = f;
-    }
-    public void pritnFacluty(){
-        System.out.println("Facluty : "+this.Faculty);
-    }
+  private String Faculty;
+  
+  Teacher(String name , int age ,String faculty) {
+    super(name,age); 
+    this.Faculty = faculty;
+  }
+  public void print_faculty() {
+      System.out.println("Faculty : "+this.Faculty);
+  }
 }
