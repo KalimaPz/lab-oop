@@ -22,6 +22,3 @@ Lab OOP ปี 2 เทอม 2
     -  Sub Class
     -  Super Constructor
     -  คุณสมบัติหลายรูปแบบ (Polymorphism)
-===Final===
-Error Exception & Handler
-GUI
