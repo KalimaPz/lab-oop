@@ -13,11 +13,9 @@ class main {
         std.addStudent(S1);
         std.addStudent(S2);
         std.addStudent(S3);
-
-      //  std.removeStudentBystCode("002"); // Delete
-      // System.out.println(std.searchStudentBystCode("002"));
-
-        // std.showAllStudent();
-      //  System.out.println("There are "+std.getNumberOfStudent() + " Students");
+        std.removeStudentBystCode("003"); // Delete
+         System.out.println("Find Index = "+std.searchStudentBystCode("002"));
+        std.showAllStudent();
+        System.out.println("There are "+std.getNumberOfStudent() + " Students");
     }
 }
