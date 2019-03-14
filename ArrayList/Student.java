@@ -2,7 +2,6 @@ class Student{
     private String StCode;
     private String Name;
     private Double GPA;
-
     public String GetCode(){
         return this.StCode;
     }
