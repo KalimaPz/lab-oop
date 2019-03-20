@@ -1,4 +1,4 @@
-public class Pokemon {
+ class Pokemon {
     private String name;
     private int maxHP;
     private int HP;

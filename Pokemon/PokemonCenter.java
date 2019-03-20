@@ -1,6 +1,5 @@
 import java.util.ArrayList;
-
-public class PokemonCenter {
+class PokemonCenter {
     private ArrayList<Pokemon> List;
 
     public void addPokemon(Pokemon P){
