@@ -9,7 +9,6 @@ public class main{
         String tempName;
         
         while(true){
-            
             System.out.print("Enter Pokemon Name  (q/Q for Exit): ");
             tempName = Reader.nextLine();
             if(tempName.equals("q") || tempName.equals("Q"))
